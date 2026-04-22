@@ -1,0 +1,19 @@
+================================
+CATEGORY 3: BEHAVIORAL PATTERNS
+================================
+DEFINITION:
+Behavioral patterns are concerned with algorithms and the assignment of 
+responsibilities between objects. They describe not just patterns of 
+objects or classes, but the patterns of communication between them.
+
+CORE GOALS:
+- Define how objects "talk" to one another.
+- Reduce direct "coupling" (dependency) between communicating objects.
+- Abstract the logic of a process so it can be changed at runtime.
+
+COFFEE SHOP CONTEXT:
+This is the "Social Logic" of the shop. How does a customer know their 
+drink is ready? (Observer/Notification). How does the manager coordinate 
+the Barista and the Janitor so they don't crash into each other? (Mediator). 
+How do you decide to pay with Cash versus Phone? (Strategy). These 
+patterns handle the "Behavior" and "Flow" of the shop's operations.

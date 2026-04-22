@@ -1,0 +1,19 @@
+================================
+CATEGORY 1: CREATIONAL PATTERNS
+================================
+DEFINITION:
+Creational patterns focus on the mechanisms of object creation. They aim to 
+create objects in a manner suitable to the situation, providing more 
+flexibility and control than standard direct instantiation (e.g., MyClass()).
+
+CORE GOALS:
+- Encapsulate the knowledge of which concrete classes the system uses.
+- Hide how instances of these classes are created and put together.
+- Decouple the client code from the specific "new" keyword logic.
+
+COFFEE SHOP CONTEXT:
+Imagine the process of getting a cup of coffee. You don't go into the back 
+room, grab a filter, measure the grounds, and boil the water yourself. 
+You use a "system" (the counter or a machine) to get the result. 
+Creational patterns are the "Systems" that handle the "How" and "When" 
+of making the coffee, so the customer just receives the finished product.

@@ -1,0 +1,19 @@
+================================
+CATEGORY 2: STRUCTURAL PATTERNS
+================================
+DEFINITION:
+Structural patterns explain how to assemble objects and classes into larger 
+structures while keeping these structures flexible and efficient. They focus 
+on how classes and objects are composed to form larger subsystems.
+
+CORE GOALS:
+- Ensure that if one part of a system changes, the entire structure doesn't break.
+- Use inheritance or interfaces to allow incompatible objects to work together.
+- Organize relationships between entities to simplify the "architecture" of the code.
+
+COFFEE SHOP CONTEXT:
+Think of the shop's physical and organizational layout. How does the 
+European espresso machine plug into the American wall outlet? (Adapter). 
+How does the "Super-Automatic" button hide the complex plumbing and 
+grinding inside? (Facade). How do we add whipped cream or sprinkles to 
+a base coffee without creating a brand-new menu item for every combo? (Decorator).
