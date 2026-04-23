@@ -1,14 +1,15 @@
 # Implement 'CashRegister' using the __new__ method.
 # If 'reg1' and 'reg2' are created, they must both point to the same object.
+# i.e 'reg1 is reg2' must return True
 
 class CashRegister:
-    singleInstance = None
+    register = None
 
     def __new__(cls, *args, **kwargs):
-        if cls.singleInstance is None:
-            cls.singleInstance = super(CashRegister,cls).__new__(cls)
+        if cls.register is None:
+            cls.register = super(CashRegister,cls).__new__(cls)
 
-        return cls.singleInstance
+        return cls.register
     
 reg1 = CashRegister()
 reg2 = CashRegister()
